@@ -24,6 +24,7 @@ body {
   right: 1em;
   color: #FFF;
   position: fixed;
+  z-index: 9999;
   text-decoration: none;
   width: 60px;
   height: 60px;
@@ -158,27 +159,31 @@ img {
 #about .col-md-12 {
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 #about img {
   padding: 20px;
-  width: 800px;
+  width: 90%;
 }
 
 #about .img-small {
   border: 1px solid #666;
-  width: 500px;
+  width: 70%;
   margin: auto;
 }
 
 #about .img-board {
   border: 1px solid #666;
-  margin: 15px 15px 20px 15px;
-  width: 90%;
+  margin: 50px 15px 10px 15px;
+  width: 100%;
 }
 
 #about .img-noborder {
+  border: none;
+}
+
+#about .img-noborder2 {
   border: none;
 }
 
@@ -219,14 +224,14 @@ img {
   border: 1px solid #666;
   padding: 15px;
   margin: 10px 0;
-  width: 90%;
+  width: 75%;
 }
 
 #team .img-final {
-  width: 300px;
+  width: 80%;
   height: auto;
   border: none;
-  margin: 70px auto;
+  margin: 15% auto;
 }
 
 #team .img-noborder {
@@ -448,9 +453,89 @@ footer span {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  #about .img-noborder {
+    width: 50%;
+    margin: auto;
+  }
+
+  #about .img-small {
+    width: 50%;
+    margin: auto;
+  }
+
+  #about .img-board {
+    width: 50%;
+    margin: auto;
+  }
+
+  #about .img-noborder {
+    width: 50%;
+  }
+
+  #about .img-noborder2 {
+    width: 90%;
+  }
+
+  #team .img-final {
+    width: 50%;
+    margin: auto;
+  }
+
+  #team .img-noborder {
+    width: 50%;
+    margin: auto;
+  }
+
+  #team img {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
 /* media 360 */
 @media only screen and (max-width: 360px) {
   #team h4 {
     padding-bottom: 30px;
+  }
+
+  #about .img-noborder {
+    width: 90%;
+    margin: auto;
+  }
+
+  #about .img-small {
+    width: 90%;
+    margin: auto;
+  }
+
+  #about .img-board {
+    width: 90%;
+    margin: auto;
+  }
+
+  #about .img-noborder {
+    width: 90%;
+  }
+
+  #about .img-noborder2 {
+    width: 90%;
+  }
+
+  #team .img-final {
+    width: 70%;
+    margin: auto;
+  }
+
+  #team .img-noborder {
+    width: 70%;
+    margin: auto;
+  }
+
+  #team img {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
   }
 }

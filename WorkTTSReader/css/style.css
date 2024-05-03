@@ -24,6 +24,7 @@ body {
   right: 1em;
   color: #FFF;
   position: fixed;
+  z-index: 9999;
   text-decoration: none;
   width: 60px;
   height: 60px;
@@ -146,7 +147,7 @@ img {
 /* overview section */
 #about {
   padding-top: 60px;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
 }
 
 #about h2 {
@@ -197,7 +198,7 @@ img {
 /* progress section */
 #team {
   padding-top: 60px;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
 }
 
 #team h2 {
@@ -224,7 +225,7 @@ img {
 }
 
 #team .img-final {
-  width: 300px;
+  width: 80%;
   height: auto;
   border: none;
   margin: 70px auto;
@@ -233,6 +234,7 @@ img {
 #team .img-noborder {
   border: none;
   margin: auto;
+  width: 90%;
 }
 
 #team .img-small {
@@ -453,9 +455,78 @@ footer span {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  #about img {
+    width: 90%;
+    margin: auto;
+  }
+
+  #team .img-noborder {
+    width: 50%;
+    margin: auto;
+  }
+
+  #team .img-small {
+    width: 50%;
+    margin: auto;
+  }
+
+  #team .img-final {
+    width: 50%;
+    margin: auto;
+  }
+
+  .col-md-12 {
+    padding: 0;
+    margin: 0;
+  }
+
+  h2 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  h3 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .col-md-12 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .col-sm-12 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+}
+
+
 /* media 360 */
 @media only screen and (max-width: 360px) {
   #team h4 {
     padding-bottom: 30px;
+  }
+
+  #about img {
+    width: 90%;
+    margin: auto;
+  }
+
+  #team .img-noborder {
+    width: 70%;
+    margin: auto;
+  }
+
+  #team .img-small {
+    width: 70%;
+    margin: auto;
+  }
+
+  #team .img-final {
+    width: 70%;
+    margin: auto;
   }
 }

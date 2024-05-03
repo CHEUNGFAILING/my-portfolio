@@ -25,6 +25,7 @@ body {
   right: 1em;
   color: #FFF;
   position: fixed;
+  z-index: 9999;
   text-decoration: none;
   width: 60px;
   height: 60px;
@@ -97,7 +98,7 @@ img {
 
 .img-mb {
   margin: auto;
-  width: 130px;
+  width: 90%;
 }
 
 h2 {
@@ -138,12 +139,12 @@ p {
 }
 
 .img-fishbone {
-  margin: auto;
+  margin: 10% 0;
 }
 
 .img-panda {
+  width: 24%;
   margin: 30px auto;
-  width: 30%;
 }
 
 /* continue section */
@@ -217,11 +218,71 @@ footer span {
     padding-left: 40px;
     line-height: 30px;
   }
+
+  .img-fishbone {
+    flex: 1;
+    margin: auto;
+  }
+
+  .img-mb {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .grouprow {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-mb {
+    flex: 1;
+    width: 70%;
+  }
+
+  .img-fisnow {
+    width: 40%;
+    margin: auto;
+  }
+
+  .img-fishbone {
+    width: 20%;
+    margin: auto;
+  }
+
+  .img-panda {
+    width: 30%;
+  }
 }
 
 /* media 360 */
 @media only screen and (max-width: 360px) {
   #team h4 {
     padding-bottom: 30px;
+  }
+
+  .grouprow {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-mb {
+    flex: 1;
+    width: 90%;
+  }
+
+  .img-fisnow {
+    width: 70%;
+    margin: auto;
+  }
+
+  .img-fishbone {
+    width: 30%;
+    margin: auto;
+  }
+
+  .img-panda {
+    width: 60%;
   }
 }
