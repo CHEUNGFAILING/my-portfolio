@@ -301,6 +301,31 @@ img {
   text-align: left;
 }
 
+.tm-btn-primary {
+  color: white;
+  background-color: #d19a1a;
+}
+
+.tm-btn-primary:hover,
+.tm-btn-primary:focus {
+  background-color: #f4be3f;
+}
+
+#figma {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+#figma .tm-btn-primary {
+  margin: 20px;
+  padding: 10px 30px;
+  font-size: 1.15rem;
+  font-weight: 300;
+  border-radius: 8px;
+  font-size: large;
+}
+
 /* anythingelse section */
 #pricing {
   padding-top: 60px;

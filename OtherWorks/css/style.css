@@ -139,7 +139,7 @@ p {
 }
 
 .img-fishbone {
-  margin: 10% 0;
+  width: 10%;
 }
 
 .img-panda {
@@ -219,11 +219,6 @@ footer span {
     line-height: 30px;
   }
 
-  .img-fishbone {
-    flex: 1;
-    margin: auto;
-  }
-
   .img-mb {
     width: 100%;
     margin: auto;
@@ -243,11 +238,6 @@ footer span {
 
   .img-fisnow {
     width: 40%;
-    margin: auto;
-  }
-
-  .img-fishbone {
-    width: 20%;
     margin: auto;
   }
 
@@ -278,8 +268,7 @@ footer span {
   }
 
   .img-fishbone {
-    width: 30%;
-    margin: auto;
+    width: 15%;
   }
 
   .img-panda {
